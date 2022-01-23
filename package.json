@@ -1,0 +1,20 @@
+{
+  "name": "getircase",
+  "version": "1.0.0",
+  "description": "Getir Case Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "author": "Mine Ozkan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^26.6.3",
+    "moment": "^2.29.1",
+    "mongodb": "^4.3.1",
+    "request": "^2.88.2",
+    "supertest": "^6.2.2"
+  }
+}
