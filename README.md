@@ -35,7 +35,7 @@ Mongodb Server installations must be done.
 
 To clone project, use:
 
-    git clone https://gitlab.inavitas.com/inavitas-core/management/inavitas-customdashboard-management.git 
+    git clone https://github.com/mineozkn/getir-case.git
 
 command.
 
