@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(app) {
-  var controller = require('../controllers/controller');
+  const controller = require('../controllers/controller');
   
   // check app health
   app.route('/health')
