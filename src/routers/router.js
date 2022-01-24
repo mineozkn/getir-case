@@ -4,7 +4,9 @@ module.exports = function(app) {
   
   // check app health
   app.route('/health')
-    .get(controller.health);
+    .get(function (req, res, next) {
+    res.json({status: 'UP'});
+  });
   
   // todoList Routes
   app.route('/records')
